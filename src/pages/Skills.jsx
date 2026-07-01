@@ -15,7 +15,6 @@ import {
   SiGithub,
   SiPostman,
   SiVercel,
-  SiNetlify,
 } from "react-icons/si";
 import { useEffect, useState, useRef } from "react";
 import { useTheme } from "../ThemeProvider";
@@ -50,7 +49,6 @@ const skills = [
       { icon: <SiGithub className="text-black dark:text-white" />, name: "GitHub" },
       { icon: <SiPostman className="text-orange-500" />, name: "Postman" },
       { icon: <SiVercel className="text-black dark:text-white" />, name: "Vercel" },
-      { icon: <SiNetlify className="text-cyan-400" />, name: "Netlify" },
     ],
   },
 ];
