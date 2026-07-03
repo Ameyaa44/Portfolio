@@ -79,7 +79,7 @@ export default function Navbar() {
                 <Download size={14} /> MEAN Stack Developer
               </a>
               
-              <a  href="/BLANK_PDF.pdf"
+              <a  href=""
                 download
                 onClick={() => setResumeOpen(false)}
                 className={dark
