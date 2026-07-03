@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useTheme } from "../ThemeProvider";
-import Image from "../assets/Image.jpeg"
+import Image from "/Image.jpeg"
 
 export default function About() {
   const sectionRef = useRef(null);

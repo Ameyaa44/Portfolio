@@ -77,8 +77,8 @@ function Skills() {
       id="skills"
       ref={sectionRef}
       className={dark
-        ? "bg-gray-950 text-white px-6 pb-40 max-w-7xl mx-auto"
-        : "bg-white text-black px-6 pb-40 max-w-7xl mx-auto"
+        ? "bg-gray-950 text-white px-6 pb-40 max-w-7xl mx-auto mt-20"
+        : "bg-white text-black px-6 pb-40 max-w-7xl mx-auto mt-20"
       }
     >
       {/* Section Label */}
