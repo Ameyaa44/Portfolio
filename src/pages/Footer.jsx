@@ -7,8 +7,8 @@ export default function Footer() {
 
   return (
     <footer className={dark
-      ? "bg-gray-950 border-t border-gray-800 px-6 py-5"
-      : "bg-white border-t border-gray-200 px-6 py-5"
+      ? "bg-gray-950 border-t border-gray-800 px-6 py-4"
+      : "bg-white border-t border-gray-200 px-6 py-4"
     }>
       <div className="max-w-6xl mx-auto flex flex-col items-center gap-6">
 
@@ -21,8 +21,8 @@ export default function Footer() {
             <li
               key={link}
               className={dark
-                ? "hover:text-white cursor-pointer transition-colors duration-200"
-                : "hover:text-gray-700 cursor-pointer transition-colors duration-200"
+                ? "hover:text-cyan-400/60 cursor-pointer transition-colors duration-200"
+                : "hover:text-cyan-600 cursor-pointer transition-colors duration-200"
               }
             >
               <a href={`#${link.toLowerCase()}`}>{link}</a>
@@ -34,8 +34,8 @@ export default function Footer() {
         <div className={dark ? "w-full h-px bg-gray-800" : "w-full h-px bg-gray-200"} />
 
         {/* Copyright */}
-        <p className={dark ? "text-xs text-gray-600 text-center" : "text-xs text-black text-center"}>
-          © {new Date().getFullYear()} Ameya Sajeevan. All rights reserved. Built with React & Tailwind CSS.
+        <p className={dark ? "text-sm text-gray-600 text-center" : "text-sm text-black text-center"}>
+          © 2026 Ameya Sajeevan. All rights reserved. Built with React & Tailwind CSS.
         </p>
 
       </div>

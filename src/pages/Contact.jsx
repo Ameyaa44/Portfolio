@@ -69,7 +69,7 @@ export default function Contact() {
         <div
           className={dark
             ? "rounded-2xl bg-gray-900/50 border border-gray-800 p-12 flex flex-col items-center text-center gap-7"
-            : "rounded-2xl bg-gray-50 border border-gray-200 p-12 flex flex-col items-center text-center gap-7"
+            : "rounded-2xl bg-gray-100/60 border border-gray-200 p-12 flex flex-col items-center text-center gap-7"
           }
           style={{
             boxShadow: "0 0 60px rgba(6,182,212,0.05)",
@@ -116,8 +116,8 @@ export default function Contact() {
                 rel="noreferrer"
                 title={s.label}
                 className={dark
-                  ? "w-10 h-10 rounded-full flex items-center justify-center text-gray-400 border border-gray-700 bg-gray-800/50 hover:text-white hover:border-cyan-500/50 hover:shadow-[0_0_15px_rgba(34,211,238,0.15)] transition-all duration-200"
-                  : "w-10 h-10 rounded-full flex items-center justify-center text-black border border-gray-300 bg-gray-100 hover:text-black hover:border-cyan-500/50 hover:shadow-[0_0_15px_rgba(34,211,238,0.15)] transition-all duration-200"
+                ? "p-3 rounded-full bg-gray-800/50 border border-gray-700/50 text-gray-400 hover:text-white hover:border-gray-500 transition-all duration-200"
+                : "w-10 h-10 rounded-full flex items-center justify-center text-black border border-black hover:text-cyan-500/90 hover:border-cyan-600/70 hover:shadow-[0_0_8px_rgba(34,211,238,0.20)] transition-all duration-200"
                 }
               >
                 {s.icon}

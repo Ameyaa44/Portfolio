@@ -2,6 +2,7 @@ import { useState,useEffect } from 'react'
 import './App.css'
 import Navbar from './pages/Navbar'
 import Home from './pages/Home'
+import About from './pages/About'
 import Skills from './pages/Skills'
 import Project from './pages/Project'
 import Education from './pages/Education'
@@ -14,6 +15,7 @@ function App() {
     
     <Navbar></Navbar>
     <Home></Home>
+    <About></About>
     <Skills></Skills>
     <Project></Project>
     <Education></Education>

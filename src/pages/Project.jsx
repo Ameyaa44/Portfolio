@@ -10,7 +10,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&h=400&fit=crop",
     description: "A service marketplace platform where users can post and find local services. Built with MERN stack featuring auth, listings, and booking flow.",
     tags: ["React", "Node.js", "MongoDB", "Express", "JWT", "REST APIs", "RBAC", "Stripe"],
-    github: "https://github.com/Ameyaa44/Profixer_server",
+    github: "https://github.com/Ameyaa44/profixer_frontend",
     live: "https://profixer-frontend.vercel.app",
   },
   {
@@ -97,7 +97,7 @@ function ProjectCard({ project, index, isVisible, dark }) {
       </div>
 
       {/* Content */}
-      <div className="p-6 flex flex-col justify-between gap-5 flex-1">
+      <div className={dark ? "p-6 flex flex-col justify-between gap-5 flex-1" : "p-6 flex flex-col justify-between gap-5 flex-1 bg-gray-100"}>
         <div>
           <p
             className="text-xs uppercase tracking-widest font-semibold mb-2"
@@ -123,7 +123,7 @@ function ProjectCard({ project, index, isVisible, dark }) {
               key={tag}
               className={dark
                 ? "text-xs px-3 py-1 rounded-full border border-gray-800 text-gray-500 bg-gray-800/50"
-                : "text-xs px-3 py-1 rounded-full border border-gray-300 text-black bg-gray-100"
+                : "text-xs px-3 py-1 rounded-full border border-gray-300 text-black bg-gray-200/30"
               }
             >
               {tag}
@@ -138,8 +138,8 @@ function ProjectCard({ project, index, isVisible, dark }) {
             target="_blank"
             rel="noreferrer"
             className={dark
-              ? "flex items-center justify-center gap-1.5 flex-1 px-4 py-2 rounded-full bg-gray-800 border border-gray-700 text-white text-xs font-medium"
-              : "flex items-center justify-center gap-1.5 flex-1 px-4 py-2 rounded-full bg-gray-100 border border-gray-300 text-black text-xs font-medium"
+              ? "flex items-center justify-center gap-1.5 flex-1 py-2 rounded-full bg-cyan-200/10 border border-cyan-400/90 text-cyan-400 text-xs font-medium"
+              : "flex items-center justify-center gap-1.5 flex-1 py-2 rounded-full bg-cyan-200/10 border border-cyan-400/90 text-cyan-400 text-xs font-medium"
             }
           >
             <ExternalLink size={14} />
@@ -150,8 +150,8 @@ function ProjectCard({ project, index, isVisible, dark }) {
             target="_blank"
             rel="noreferrer"
             className={dark
-              ? "flex items-center justify-center gap-1.5 flex-1 px-4 py-2 rounded-full bg-gray-800 border border-gray-700 text-white text-xs font-medium"
-              : "flex items-center justify-center gap-1.5 flex-1 px-4 py-2 rounded-full bg-gray-100 border border-gray-300 text-black text-xs font-medium"
+              ? "flex items-center justify-center gap-1.5 flex-1 py-2 rounded-full bg-cyan-200/10 border border-cyan-400/90 text-cyan-400 text-xs font-medium"
+              : "flex items-center justify-center gap-1.5 flex-1 py-2 rounded-full bg-cyan-200/10 border border-cyan-400/90 text-cyan-400 text-xs font-medium"
             }
           >
             <LuGithub size={14} />
