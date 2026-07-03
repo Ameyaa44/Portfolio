@@ -21,7 +21,7 @@ export default function About() {
     return () => observer.disconnect();
   }, []);
 
-  const tags = ["MongoDB", "Express.js", "React", "Angular", "Node.js"];
+  const tags = ["MongoDB", "Express.js", "Angular","React.js", "Node.js","TypeScript"];
 
   return (
     <section

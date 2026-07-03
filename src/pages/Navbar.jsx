@@ -21,7 +21,7 @@ export default function Navbar() {
 
         {/* Logo */}
         <span className={dark ? "text-xl font-extrabold text-white px-2 mr-3 xl:mr-6 2xl:mr-15 shrink-0" : "text-xl font-extrabold text-black px-2 mr-3 xl:mr-6 2xl:mr-15 shrink-0"}>
-          <span className="gradient-text">Ameya</span>
+          <a href="#home"><span className="gradient-text">Ameya</span></a>
         </span>
 
         {/* Nav Links */}
