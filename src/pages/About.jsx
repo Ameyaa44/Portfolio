@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useTheme } from "../ThemeProvider";
+import Image from "../assets/Image.jpeg"
 
 export default function About() {
   const sectionRef = useRef(null);
@@ -82,7 +83,7 @@ export default function About() {
                 }
               >
                 <img
-                  src="src/assets/Image.jpeg"
+                  src={Image}
                   alt="Ameya"
                   className="w-full h-full object-cover grayscale-15"
                   // style={{ filter: "grayscale(80%) contrast(1)" }}
