@@ -1,6 +1,6 @@
 import { useTheme } from "../ThemeProvider";
 
-const links = ["Home", "About", "Skills", "Projects", "Experience", "Education", "Contact"];
+const links = ["Home", "About", "Skills", "Projects", "Experience", "Contact"];
 
 export default function Footer() {
   const { dark } = useTheme();

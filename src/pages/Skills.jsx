@@ -114,8 +114,8 @@ function Skills() {
         {/* Frontend — full width */}
         <div
           className={dark
-            ? "md:col-span-2 p-6 rounded-2xl bg-gray-900/50 border border-gray-800 hover:border-cyan-500/40 transition-all duration-300"
-            : "md:col-span-2 p-6 rounded-2xl bg-gray-200/50 border border-gray-200 hover:border-cyan-500/40 transition-all duration-300"
+            ? "md:col-span-2 p-6 rounded-2xl bg-gray-900/50 border border-gray-800 hover:border-cyan-500/40 hover:shadow-[0_0_25px_rgba(34,211,238,0.06)] transition-all duration-300"
+            : "md:col-span-2 p-6 rounded-2xl bg-gray-200/50 border border-gray-200 hover:border-cyan-500/40 hover:shadow-[0_0_25px_rgba(34,211,238,0.06)] transition-all duration-300"
           }
           style={{
             opacity: isVisible ? 1 : 0,

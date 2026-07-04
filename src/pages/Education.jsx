@@ -65,14 +65,14 @@ export default function Education() {
 
       {/* Title */}
       <h2
-        className="text-4xl md:text-5xl font-extrabold gradient-text mb-14"
+        className="text-4xl md:text-5xl font-extrabold gradient-text mb-14 py-1.5"
         style={{
           opacity: isVisible ? 1 : 0,
           transform: isVisible ? "translateY(0)" : "translateY(20px)",
           transition: "opacity 0.5s ease 0.4s, transform 0.5s ease 0.2s",
         }}
       >
-        Where I learned the <br /> fundamentals
+         The path that got <br/> me here
       </h2>
 
       {/* List */}
