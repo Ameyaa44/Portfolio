@@ -86,14 +86,14 @@ export default function Home() {
 
 
       <div style={anim(0.4)} className="relative z-10 flex flex-wrap gap-4 justify-center">
-        <button className="hero-button flex items-center gap-2 text-white font-bold uppercase text-sm tracking-wide px-3 py-3 rounded-full shadow-xl hover:scale-105 transition-transform duration-200">
+        <button className="hero-button flex items-center gap-2 text-white font-bold uppercase text-sm tracking-wide px-4 py-3 rounded-full shadow-xl hover:scale-105 transition-transform duration-200">
           <a href="#projects">See my work</a>
           <ArrowRight size={16} />
         </button>
         <button
           className={dark
-            ? "flex items-center gap-2 border-2 border-gray-700 px-6 py-3 rounded-full font-bold uppercase text-sm tracking-wide hover:border-gray-400 text-gray-300 hover:text-white transition-all duration-200"
-            : "flex items-center gap-2 border-2 border-gray-300 px-6 py-3 rounded-full font-bold uppercase text-sm tracking-wide hover:border-black text-black transition-all duration-200"
+            ? "flex items-center gap-2 border-2 border-gray-700 px-5 py-3 rounded-full font-bold uppercase text-sm tracking-wide hover:border-gray-400 text-gray-300 hover:text-white transition-all duration-200"
+            : "flex items-center gap-2 border-2 border-gray-300 px-5 py-3 rounded-full font-bold uppercase text-sm tracking-wide hover:border-black text-black transition-all duration-200"
           }
         >
           <Mail size={16} />

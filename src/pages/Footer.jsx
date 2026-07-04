@@ -35,7 +35,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p className={dark ? "text-sm text-gray-600 text-center" : "text-sm text-black text-center"}>
-          © 2026 Ameya Sajeevan. All rights reserved. Built with React & Tailwind CSS.
+          © 2026 Ameya Sajeevan. Designed & built with React & Tailwind CSS.
         </p>
 
       </div>
