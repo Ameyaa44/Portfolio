@@ -37,8 +37,8 @@ const projects = [
     image: "https://images.unsplash.com/photo-1545602608-a2071d60c6c1?q=80&w=876&auto=format&fit=crop",
     description: "A recipe discovery app with search, filters, and detailed cooking instructions. Built with Angular and TypeScript.",
     tags: ["Angular", "Node.js", "MongoDB", "Express.js", "TypeScript", "Guards", "JsPDF", "JWT"],
-    github: "https://github.com/Ameyaa44/Cookspedia_frontend",
-    live: "https://cookspedia-frontend.vercel.app",
+    github: "https://github.com/Ameyaa44/Yumify",
+    live: "https://yumify-sage.vercel.app",
   },
 ];
 
